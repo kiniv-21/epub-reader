@@ -1,0 +1,27 @@
+# EPUB parsing
+EbookLib>=0.18
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# Text processing
+nltk>=3.9
+
+# Local TTS (Kokoro; runs with the platform-supported PyTorch backend)
+kokoro>=0.9.4
+soundfile>=0.12
+
+# Audio processing
+pydub>=0.25
+
+# Local backend/API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# Database
+SQLAlchemy>=2.0
+
+# Data validation
+pydantic>=2.9
+
+# File uploads / multipart handling
+python-multipart>=0.0.9
